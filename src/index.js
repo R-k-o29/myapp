@@ -1,17 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { Classcomp } from "./class&func/Classcomp";
+import { Functionalcomp } from "./class&func/Functionalcomp";
+import NetflixParent, { Netflixparent } from "./props/NetflixParent";
+import { Statecomp } from "./State/Statecomp";
+import Stylecomp from "./styles/stylecomp";
+import { Jsxcomp } from "./JSX/jsxcomp";
+import Effectcom from "./Hooks/Effectcom";
+import GetProducts from "./Hooks/GetProducts";
+import Customcomp from "./Hooks/Customcomp";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <Classcomp /> */}
+    {/* <Functionalcomp /> */}
+    {/* <Netflixparent /> */}
+    {/* <Statecomp /> */}
+
+    {/* <Stylecomp />
+    <Jsxcomp />
+    <Effectcom /> */}
+
+    {/* <GetProducts /> */}
+      <Customcomp/>
+
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
