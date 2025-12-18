@@ -10,6 +10,10 @@ import { Jsxcomp } from "./JSX/jsxcomp";
 import Effectcom from "./Hooks/Effectcom";
 import GetProducts from "./Hooks/GetProducts";
 import Customcomp from "./Hooks/Customcomp";
+import Refcomp from "./Hooks/Refcomp";
+import Memocomp from "./Hooks/Memocomp";
+import Eventcomp  from "./events/Eventcomp";
+import Conditioncomp from "./conditionalRendering/Conditioncomp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,7 +28,13 @@ root.render(
     <Effectcom /> */}
 
     {/* <GetProducts /> */}
-      <Customcomp/>
+      {/* <Customcomp/> */}
+
+    {/* <Refcomp /> */}
+    {/* <Memocomp /> */}
+
+    {/* <Eventcomp /> */}
+    <Conditioncomp />
 
   </React.StrictMode>
 );
