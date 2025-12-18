@@ -42,7 +42,7 @@
   - external
   - Module.css
 
-- Hooks & their syntaxes
+- Hooks & their syntaxes (Refer : `https://www.youtube.com/watch?v=4Ak2jFEIr9o`)
 
 - Events
     - mouse events (onCLick,onDoubleClick,onMouseEnter,onMouseLeave)
