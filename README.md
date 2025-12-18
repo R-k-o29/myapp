@@ -1,12 +1,12 @@
 - React Intro
-  -Virtual DOM
+    -Virtual DOM
 
 - How to create a react app
   npx create-react-app myapp
   cd myapp
   npm start
 
-_**_ Components : Class & Functional 
+- Components : Class & Functional 
     - render() keyword
 
 - JSX - Javascript XML (Combination of Html, CSS & Javascript) - Rules while writing jsx
