@@ -1,17 +1,31 @@
 - React Intro
+<<<<<<< HEAD
     - Virtual DOM
 
 - How to create a react app
     - npx create-react-app myapp
     - cd myapp
     - npm start
+=======
+    -Virtual DOM
+
+- How to create a react app
+  - npx create-react-app myapp
+  - cd myapp
+  - npm start
+>>>>>>> 20070a15bf8d35a8abca34166facfb305a56b35c
 
 - Components : Class & Functional 
     - render() keyword
 
 - JSX - Javascript XML (Combination of Html, CSS & Javascript) - Rules while writing jsx
+<<<<<<< HEAD
   { 
 
+=======
+  {
+  
+>>>>>>> 20070a15bf8d35a8abca34166facfb305a56b35c
     1. We must always return a single parent element .We cannot return mulytple elements .
     we can use React.Fragment
 
@@ -25,7 +39,11 @@
     5. Values of the attributes must be closed inside "", ''
 
     6. If the value you want to pass to attribute is Object then you must wrap it inside {}.
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> 20070a15bf8d35a8abca34166facfb305a56b35c
    }
    - className = ""
    - {} to write js
