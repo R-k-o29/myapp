@@ -42,6 +42,8 @@
   - external
   - Module.css
 
+- API Handling & displaying data (using fetch & .then )
+
 - Hooks & their syntaxes (Refer : `https://www.youtube.com/watch?v=4Ak2jFEIr9o`)
 
 - Events
@@ -49,3 +51,5 @@
     - keyboard events (onKeyDown,onKeyPress,onKeyUp)
     - form events (onChange ,onSubmit,onInput ,onFOcus,onBlur)
     - other (onScroll, onLoad, onError)
+ 
+- routing
