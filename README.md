@@ -53,3 +53,5 @@
     - other (onScroll, onLoad, onError)
  
 - routing
+  - installation command: npm install react-router-dom
+  - importing commmand : import {BrowserRouter,Routes,Route} from "react-router-dom";
