@@ -2,9 +2,9 @@
     -Virtual DOM
 
 - How to create a react app
-  npx create-react-app myapp
-  cd myapp
-  npm start
+  - npx create-react-app myapp
+  - cd myapp
+  - npm start
 
 - Components : Class & Functional 
     - render() keyword
